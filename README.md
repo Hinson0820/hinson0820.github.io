@@ -4,13 +4,7 @@
 
 ---
 
-### 🌐 Domains of Research
-
-- **Pineal Gland Activation**
-  * 📁 **Active Project:** [`Binaural Beats Mixer`](https://github.com/Hinson0820/Binaural-Beats-Mixer) — Offline binaural beat and cross-frequency coupled (CFC) audio generator with multi-segment sessions, isochronic pulsing, and waveform visualization.
-
-- **Demonology Study**
-
-- **Red-Teaming & Cyber Warfare**
+## My Project
+[`Binaural Beats Mixer`](https://github.com/Hinson0820/Binaural-Beats-Mixer) — Offline binaural beat and cross-frequency coupled (CFC) audio generator with multi-segment sessions, isochronic pulsing, and waveform visualization.
 
 ---

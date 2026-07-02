@@ -1,6 +1,6 @@
 # Hi, I'm Hinson
 
-> Focused on building architecture across unconventional layers. More full-stack than full-stack.
+Focused on building architecture across unconventional layers. More full-stack than full-stack.
 
 ---
 

@@ -1,0 +1,132 @@
+/* --- Base Light Theme --- */
+:root {
+    --bg: #ffffff;
+    --text: #24292f;
+    --text-muted: #57606a;
+    --link: #0969da;
+    --border: #d0d7de;
+    --code-bg: #f6f8fa;
+    --code-text: #cf222e;
+    --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* --- System Dark Theme Auto-Switch --- */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #0d1117;
+        --text: #c9d1d9;
+        --text-muted: #8b949e;
+        --link: #58a6ff;
+        --border: #30363d;
+        --code-bg: #161b22;
+        --code-text: #ff7b72;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-stack);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+header {
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.bio {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-item {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed var(--border);
+}
+
+.project-item:last-child {
+    border-bottom: none;
+}
+
+.project-item h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.project-item h3 a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.project-item p {
+    color: var(--text-muted);
+    margin: 0 0 1rem 0;
+}
+
+pre {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+pre code {
+    color: var(--code-text);
+    background: none;
+    padding: 0;
+    font-size: 0.9rem;
+    font-family: ui-monospace, SFMono-Regular, SF Pro Text, Menlo, Monaco, Consolas, monospace;
+}
+
+code {
+    background-color: var(--code-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+    font-size: 85%;
+}
+
+.tags {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+footer {
+    margin-top: 4rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: center;
+}
